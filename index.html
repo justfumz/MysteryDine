@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Hex Background Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JustFumz Cuisine</h1>
+      <h6 id="address"></h6>
+      <h4>Pick a number between 1-5 for a surprise!</h4>
+      <label for=""
+        >Starter:
+        <input
+          type="number"
+          min="1"
+          max="5"
+          name="Starter"
+          id="starter"
+          required
+      /></label>
+      <label for=""
+        >Main-Menu:
+        <input
+          type="number"
+          min="1"
+          max="5"
+          name="Main-Menu"
+          id="main"
+          required
+      /></label>
+
+      <button type="button" id="btn">Submit!</button>
+      <p class="message"></p>
+      <p class="orderContent"></p>
+      <button class="reorder hidden">Place Another Order</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

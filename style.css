@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+.container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+input {
+  width: 8%;
+  text-align: center;
+}
+
+h1,
+h4,
+p {
+  margin: 2%;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+button {
+  padding: 5px;
+  border: 0;
+  color: bisque;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
